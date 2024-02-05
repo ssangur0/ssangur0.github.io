@@ -10,7 +10,7 @@ h1{
 }
 
 header{
-    background-color: #d3dfdf;
+    background-color: #ebded4;
 }
 
 header::after{
@@ -70,7 +70,7 @@ h2{
 }
 body{
     margin: 0px;
-    background-color: #d3dfdf;
+    background-color: #ebded4;
 
 }
 /*end of body*/
@@ -102,14 +102,14 @@ footer {
     text-decoration: none;
     color: #46484b;
     font-size: 20px;
-    background-color: #d3dfdf;
+    background-color: #ebded4;
     padding: 14px;
     border-radius: 6%;
     transition: 0.15s;
   }
   
   .footerNav > li > a:hover {
-    background-color: #d3dfdf;
+    background-color: #ebded4;
     text-shadow: 1px 1px 5px white;
     box-shadow: 1px 1px 2px rgba(141, 141, 141, 0.644);
   }
@@ -140,12 +140,12 @@ footer {
     color: black;
     transition: 0.3s;
     padding: 14px;
-    background-color: #d3dfdf;
+    background-color: #ebded4;
     border-radius: 5%;
   }
   
   .footerButtons a:hover   {
-    background-color:#d3dfdf;
+    background-color:#ebded4;
     text-shadow: 1px 1px 5px white;
     box-shadow: 1px 1px 2px rgba(141, 141, 141, 0.644);
   }
