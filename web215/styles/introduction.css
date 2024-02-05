@@ -1,0 +1,152 @@
+/*nav bar*/
+h1{
+    text-align: center;
+    color:#46484b
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #d3dfdf;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+nav{
+    float: center;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20;
+    overflow: hidden;;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+}
+
+nav a{
+    color: #46484b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    }
+nav a:hover{
+    background-color: antiquewhite;
+}
+.navbar li{
+    float: center;
+}
+
+/* end nav bar*/
+/*title*/
+h2{
+    text-align: center;
+    color: #46484b;
+    font-size: 32px;
+}
+/*body*/
+.imgbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+body{
+    margin: 0px;
+    background-color: #d3dfdf;
+
+}
+/*end of body*/
+/*footer*/
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInAnimation ease 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin-top: 100px;
+  }
+  
+  .navBox {
+    width: 80%;
+    margin: 1% 0% 1% 0%;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  .footerNav > li {
+    display: inline;
+  }
+  
+  .footerNav > li > a {
+    text-decoration: none;
+    color: #46484b;
+    font-size: 20px;
+    background-color: #d3dfdf;
+    padding: 14px;
+    border-radius: 6%;
+    transition: 0.15s;
+  }
+  
+  .footerNav > li > a:hover {
+    background-color: #d3dfdf;
+    text-shadow: 1px 1px 5px white;
+    box-shadow: 1px 1px 2px rgba(141, 141, 141, 0.644);
+  }
+  
+  .footerNav {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+  }
+  
+  .designedBy {
+    font-size: 16px;
+    margin: 1%;
+  }
+  
+  .footerButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+    width: 50%;
+    font-size: 14px;
+  }
+  
+  .footerButtons a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    padding: 14px;
+    background-color: #d3dfdf;
+    border-radius: 5%;
+  }
+  
+  .footerButtons a:hover   {
+    background-color:#d3dfdf;
+    text-shadow: 1px 1px 5px white;
+    box-shadow: 1px 1px 2px rgba(141, 141, 141, 0.644);
+  }
+/* end footer*/
