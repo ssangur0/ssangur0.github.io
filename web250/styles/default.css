@@ -1,4 +1,9 @@
 /*nav bar*/
+h1{
+    text-align: center;
+    color:#46484b
+
+}
 .container {
     width: 80%;
     margin: 0 auto;
@@ -60,12 +65,13 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    size: 20px;
+    
 
 }
+body{
+    margin: 0px;
+    background-color: #d3dfdf;
 
-img{
-   size:20px;
 }
 /*end of body*/
 /*footer*/
